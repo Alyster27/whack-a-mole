@@ -1,0 +1,59 @@
+h1 {
+    color: #fff;
+    background-color: rgb(0, 10, 145);
+    padding: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #fff;
+    padding: 10px;
+}
+
+.score {
+    background-color: rgb(0, 10, 145);
+    padding: 10px;
+    color: #fff;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.timer {
+    color: #fff;
+    background-color: rgb(0, 10, 145);
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 1px solid #fff;
+    background-color: rgb(0, 10, 145);
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mole {
+    background-color: #fff;
+    background-image: url(mole.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
